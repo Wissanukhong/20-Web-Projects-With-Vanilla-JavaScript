@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+}
+
+.bg-navbar{
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#navbar{
+    transition: 0.5s;
+}
+
+.logo-codecamp{
+    border-radius:50px;
+}
+
+/* carousel */
+.carousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item .active {
+    height: 100%;
+}
+
+/* สำหรับตั้งค่า image ให้มีขนาดตามที่ต้องการ */
+.carousel-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+/* สำหรับการตั้งค่า caption ให้อยู่ตรงกลาง */
+.carousel-caption{
+    top: 40%;
+}
+
+/* สำหรับค่าพื้นหลังให้มีความโปร่งใส่ และเห็น caption ชัดเจนมากขึ้น */
+.backscreen{
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+.footer{
+    background: #313131;
+}
+
+.display-footer{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.2;
+}
