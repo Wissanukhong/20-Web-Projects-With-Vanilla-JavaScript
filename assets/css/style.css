@@ -74,13 +74,13 @@ html, body {
 
 /* download-documnet */
 .download-document{
-    background: red;
+    background: green;
     padding: 10px 10px;
     border-radius: 10px;
-    color: yellow;
+    color: black;
 }
 
-.download-document > a:hover{
+.download-document:hover{
     text-decoration: none;
-    color: pink;
+    color: black;
 }
