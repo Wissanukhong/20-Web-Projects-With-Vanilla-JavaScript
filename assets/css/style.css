@@ -72,15 +72,3 @@ html, body {
     }
 }
 
-/* download-documnet */
-.download-document{
-    background: green;
-    padding: 10px 10px;
-    border-radius: 10px;
-    color: black;
-}
-
-.download-document:hover{
-    text-decoration: none;
-    color: black;
-}
